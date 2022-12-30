@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Caudex&display=swap'); 
 
+body{
+overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+body{
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+}
+
 .nav{
     position: relative;
 }
