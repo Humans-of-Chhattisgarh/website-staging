@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Caudex&display=swap'); 
 
-.titleTexed {
+h1 {
     font-family: 'Caudex', serif;
-    align-items: center;
-    font-size: x-large;
+    position: relative;
+    text-align: center;
+    font-size: 80px;
+    text-transform: uppercase;
 }
