@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Caudex&display=swap'); 
 
+.nav{
+    position: relative;
+}
+
 h1 {
     font-family: 'Caudex', serif;
     position: relative;
@@ -7,3 +11,38 @@ h1 {
     font-size: 80px;
     text-transform: uppercase;
 }
+
+.block {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #item {
+    font-size: 80px;
+    font-family: 'Caudex', serif;
+    width: initial;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+  }
+  
+  
+  #highlight {
+    display: inline-block;
+    position: absolute;
+    z-index: -1;
+    background-color: #e79d35;
+    height: 50px; 
+    width: 0%;
+    transition: width 0.5s;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  
+  #item:hover #highlight{
+    /* hardcoded */
+    width: 1170px; 
+  }
