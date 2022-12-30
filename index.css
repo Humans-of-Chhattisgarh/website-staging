@@ -46,3 +46,17 @@ h1 {
     /* hardcoded */
     width: 1170px; 
   }
+
+/* .block{
+    background-image: url('hoc_web_bg.jpeg');
+    background-repeat: none;
+} */
+
+
+.down{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 90vh;
+    align-self: center;
+}
